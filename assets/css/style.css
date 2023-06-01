@@ -9,7 +9,8 @@
 }
 
 body{
-    background-color: #CCCCCC;
+    background-color: #efefef;
+    font-family: 'roboto';
 }
 
 /* *header */
@@ -23,7 +24,7 @@ body{
     margin-left: 30px;
     list-style: none;
     color: #659D89;
-    font-family: 'roboto';
+
 }
 
 .nav_list:hover{
@@ -33,7 +34,6 @@ body{
 /* *main */
 .main{
     margin-top: 100px;
-    font-family: 'roboto';
     margin-left: 100px;
 }
 .info_title{
@@ -67,8 +67,71 @@ body{
 .browse{
     font-size: 16px;
     opacity: 70%;
+    margin-bottom: 150px;
 }
 
 .browse:hover{
     opacity: 100%;
+}
+
+.article_info{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main_emoji{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.emoji{
+    margin: 20px;
+}
+
+.emoji:hover{
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+.container{
+    text-align: center;
+    margin: 70px auto 0px 60px;
+    width: 800px;
+}
+
+.container h6{
+    margin: 15px;
+    color: #666666;
+}
+
+.container:nth-of-type(2n){
+    margin: 70px 60px 0px auto;
+}
+
+.container img:hover{
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 150px;
+    height: 200px;
+    border-top: 1px solid gray;
+    padding: 50px;
+}
+
+.footer a{
+    color: #666666;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #1e1e1e;
+}
+
+.footer p{
+    color: #666666;
+    font-size: 10px;
+    margin-top: 60px;
 }
