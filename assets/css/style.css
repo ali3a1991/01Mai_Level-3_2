@@ -33,8 +33,7 @@ body{
 
 /* *main */
 .main{
-    margin-top: 100px;
-    margin-left: 100px;
+    margin: 100px;
 }
 .info_title{
     color: #659D89;
